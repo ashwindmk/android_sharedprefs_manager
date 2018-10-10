@@ -8,7 +8,6 @@ import java.util.Set;
 
 public class SharedPrefsManager {
     private static final String MY_PREFERENCES = "my_preferences";
-    private static final String TAG = SharedPrefsManager.class.getSimpleName();
     private static Editor mEditor;
     private static SharedPreferences mSharedPrefs;
     private static SharedPrefsManager mSharedPrefsManager;
